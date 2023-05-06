@@ -1,0 +1,38 @@
+
+.card-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    margin: 0 2rem;
+    background-color: #FFF;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 1.5vh;
+    transition: all .2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px;
+}
+
+.card-background:hover {
+    transform: scale(1.1);
+}
+
+.card-name-passing-grade, .card-name-failing-grade {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.card-name-passing-grade {
+    color: #269945;
+}
+
+.card-name-failing-grade {
+    color: #DC143c;
+}
+
+.card-grade {
+    color: #3d3d3d;
+    font-size: 1.25rem;
+    font-weight: 500;
+}

@@ -17,3 +17,6 @@ Para executar este projeto é necessário ter o [Node.js](https://nodejs.org/en/
     yarn run dev
     ```
 Com isso, o projeto estará acessível no seu localhost na porta 3000.
+
+## Dados da API
+- O Mock dos dados da API estão localizados em <code>src/mockData/mockApiResponse.json</code>, você pode alterar esse arquivo para saber como o sistema se comporta com um número maior ou menor de dados.
